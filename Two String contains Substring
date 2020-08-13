@@ -17,3 +17,13 @@ return "yes";
 else 
 return "no";
 }
+
+##Out
+2
+hello
+world
+hi
+world
+
+yes
+no
