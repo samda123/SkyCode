@@ -8,3 +8,21 @@ void reversePrint(SinglyLinkedListNode* head)
 
 
 }
+
+
+
+void reversePrint(SinglyLinkedListNode* head) 
+{
+    vector<int> node;
+    while(head)
+    {
+        node.push_back(head->data);
+        head=head->next;
+    }
+    while(!node.empty())
+    {
+        cout<<node.back()<<endl;
+        node.pop_back();
+    }
+}
+
