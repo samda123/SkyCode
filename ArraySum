@@ -19,6 +19,17 @@ public class Solution {
        return sum;
 
     }
+    
+    ##out
+    
+    1
+    2
+    3
+    
+    6
+    
+    
+    
 
     private static final Scanner scanner = new Scanner(System.in);
 
